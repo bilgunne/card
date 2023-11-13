@@ -41,6 +41,12 @@
         <!-- Submit button -->
         <button type="submit">Create Business Card</button>
     </form>
+
+    <script>
+        document.getElementById('businessCardForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+        });
+    </script>
 </body>
 
 </html>
