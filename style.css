@@ -11,3 +11,9 @@ body, h1, p {
     border-radius: 8px;
     background-color: #f9f9f9;
 }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
